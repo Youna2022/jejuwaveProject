@@ -15,7 +15,7 @@
 <br>
 <img width="1043" alt="image" src="https://user-images.githubusercontent.com/108061839/217988580-f207e989-cdce-44f4-a1f0-542997c5cc07.png">
 
->Spirng Boot  + JSP 파싱 **대학교 종합포탈시스템** 
+>JSP  + servlet **여행 커뮤니티 사이트** 
 
 <br></br><br></br>
 
