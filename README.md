@@ -117,7 +117,7 @@
 1. 이미지 영역에 마우스 올릴시 **여행 기간 표시** <br>
 <img width="194" alt="image" src="https://user-images.githubusercontent.com/108061839/218400292-a149727c-25fb-4907-aecf-b5c8260a2880.png"> <br>
 2. **검색 필터** 기능 : 클릭시 텍스트 컬러 변경. 모든 항목을 클릭시 전체로 변경됨.<br>
-<img width="376" alt="image" src="https://user-images.githubusercontent.com/108061839/218400929-22030bfe-d631-4257-a975-12fb6f34a6c4.png">
+<img width="376" alt="image" src="https://user-images.githubusercontent.com/108061839/218400929-22030bfe-d631-4257-a975-12fb6f34a6c4.png"><br>
 3. 이미지 등록시 지정 확장자만 등록 가능.
 <br></br>
 
