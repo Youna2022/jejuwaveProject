@@ -21,11 +21,11 @@
 
 
 # 1. 📄 프로젝트 소개
-`안전하고 빠르게 동행자를 찾을수 있는 사이트가 없을까` 에서 시작된 프로젝트 입니다. <br>
-혼자 여행하는 여행 트렌트를 반영한 쉽고 빠르게 동행자를 찾을 수 있는 커뮤니티 사이트입니다. <br>
-유저간 공유하는 여행 정보와 사진 공유 기능이 있습니다.
-<img width="850" alt="image" src="https://user-images.githubusercontent.com/108061839/218418951-e45d6705-07a7-4b65-926c-9a610dfe3337.png">
-<img width="850" alt="image" src="https://user-images.githubusercontent.com/108061839/218419033-8374eb11-ba05-4fcb-bd4d-8dffe938dcc9.png">
+* `안전하고 빠르게 동행자를 찾을수 있는 사이트가 없을까` 에서 시작된 프로젝트 입니다. <br>
+* 혼자 여행하는 여행 트렌트를 반영한 쉽고 빠르게 동행자를 찾을 수 있는 커뮤니티 사이트입니다. <br>
+* 유저간 공유하는 여행 정보와 사진 공유 기능이 있습니다. <br>
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/108061839/218418951-e45d6705-07a7-4b65-926c-9a610dfe3337.png">
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/108061839/218419033-8374eb11-ba05-4fcb-bd4d-8dffe938dcc9.png">
 
 ####  개발기간 : 2022.09.19 ~ 2022.10.13 
 
