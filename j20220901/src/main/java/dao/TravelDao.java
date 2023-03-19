@@ -35,7 +35,7 @@ public class TravelDao {
 	}
 	
 	public int getTotalCnt(Travel tvl) throws SQLException {
-		System.out.println("=====================TravelDao getTotalCnt Start=====================");
+// 		System.out.println("=====================TravelDao getTotalCnt Start=====================");
 		Connection conn = null;
 		Statement stmt = null;
 		ResultSet rs = null;
@@ -71,7 +71,7 @@ public class TravelDao {
 		
 		int tot = 0;
 		
-		System.out.println("TravelDao  getTotalCnt sql-->" + sql);
+// 		System.out.println("TravelDao  getTotalCnt sql-->" + sql);
 		try {
 			conn = getConnection();
 			stmt = conn.createStatement();
@@ -79,8 +79,8 @@ public class TravelDao {
 			if(rs.next()) {
 				tot = rs.getInt(1);
 			}
-			System.out.println("TravelDao  getTotalCnt tot-->" + tot);
-			System.out.println("=====================TravelDao getTotalCnt End=====================");
+// 			System.out.println("TravelDao  getTotalCnt tot-->" + tot);
+// 			System.out.println("=====================TravelDao getTotalCnt End=====================");
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
 		} finally {
@@ -119,7 +119,7 @@ public class TravelDao {
 		
 	}
 	public List<Travel> traveList(int startRow, int endRow) throws SQLException {
-		System.out.println("=====================TravelDao traveList Start=====================");
+// 		System.out.println("=====================TravelDao traveList Start=====================");
 		List<Travel> list = new ArrayList<Travel>();
 		Connection conn = null;
 		PreparedStatement pstmt = null;
@@ -131,9 +131,9 @@ public class TravelDao {
 						+ " where r between ? and ?";
 		
 		
-		System.out.println("TravelDao  traveList startRow-->"+startRow);
-		System.out.println("TravelDao  traveList endRow-->"+endRow);
-		System.out.println("TravelDao  traveList sql-->"+sql);
+// 		System.out.println("TravelDao  traveList startRow-->"+startRow);
+// 		System.out.println("TravelDao  traveList endRow-->"+endRow);
+// 		System.out.println("TravelDao  traveList sql-->"+sql);
 
 		
 		try {
@@ -178,12 +178,12 @@ public class TravelDao {
 	
 	
 	public Travel select (int t_num) throws SQLException {
-		System.out.println("=====================TravelDao select Start=====================");
+// 		System.out.println("=====================TravelDao select Start=====================");
 		Connection conn = null;
 		PreparedStatement pstmt = null;
 		ResultSet rs = null;
 		
-		System.out.println("=====> t_num ==" + t_num);
+// 		System.out.println("=====> t_num ==" + t_num);
 		String sql 	 = "select t_num, user_id, t_img, t_title, t_content, t_gubun,"
 				     + " TO_CHAR(TO_DATE(t_date) , 'YYYY.MM.DD') AS t_date, t_person, t_start,"
 				     + " t_end, t_dealstatus, t_ref, t_relevel, t_restep, fn_user_img(user_id) as user_img"
@@ -220,7 +220,7 @@ public class TravelDao {
 				System.out.println("TravelDao  select t_content-->"+rs.getString	("t_content"));
 			}
 			
-			System.out.println("=====================TravelDao select End=====================");
+// 			System.out.println("=====================TravelDao select End=====================");
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
 		} finally {
@@ -238,7 +238,7 @@ public class TravelDao {
 		String sql = "select t_num, user_id, t_content, t_date, t_ref, t_relevel, t_restep, fn_user_img(user_id) as user_img"
 				  + " from travel_board where t_ref=? and t_relevel != 0 order by t_restep, t_relevel, t_date";
 		
-		System.out.println();
+// 		System.out.println();
 		
 		try {
 			conn  = getConnection();
@@ -301,7 +301,7 @@ public class TravelDao {
 	
 	public Travel insert(Travel travel) throws SQLException {
 		Connection conn = null;
-		System.out.println("나는 insert 시작");
+// 		System.out.println("나는 insert 시작");
 		PreparedStatement pstmt = null;
 		int result = 0;
 		ResultSet rs = null;
@@ -361,7 +361,7 @@ public class TravelDao {
 			while (rs.next()) {
 				result = rs.getInt(1) + 1;
 			}
-			System.out.println("getMaxNum t_num====>" + result);
+// 			System.out.println("getMaxNum t_num====>" + result);
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
 		} finally {
@@ -454,7 +454,7 @@ public class TravelDao {
 			while (rs.next()) {
 				result = rs.getInt(1) + 1;
 			}
-			System.out.println("getMaxNum t_restep====>" + result);
+// 			System.out.println("getMaxNum t_restep====>" + result);
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
 		} finally {
@@ -527,7 +527,7 @@ public class TravelDao {
 
 																/* tvl.get */
 	public List<Travel> traveListSearch(int startRow, int endRow, Travel tvl) throws SQLException {
-		System.out.println("=====================TravelDao traveListSearch Start=====================");
+// 		System.out.println("=====================TravelDao traveListSearch Start=====================");
 		List<Travel> list = new ArrayList<Travel>();
 		Connection conn = null;
 		PreparedStatement pstmt = null;
@@ -572,9 +572,9 @@ public class TravelDao {
 						+ " order by t_ref desc) a)"
 						+ " where r between ? and ?";
 		
-		System.out.println("TravelDao  traveList startRow-->"+startRow);
-		System.out.println("TravelDao  traveList endRow-->"+endRow);
-		System.out.println("TravelDao  traveList sql-->"+sql);
+// 		System.out.println("TravelDao  traveList startRow-->"+startRow);
+// 		System.out.println("TravelDao  traveList endRow-->"+endRow);
+// 		System.out.println("TravelDao  traveList sql-->"+sql);
 
 		
 		try {
@@ -607,7 +607,7 @@ public class TravelDao {
 				list.add(travel);
 			}
 			
-			System.out.println("=====================TravelDao traveListSearch End=====================");
+// 			System.out.println("=====================TravelDao traveListSearch End=====================");
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
 		} finally {
