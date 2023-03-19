@@ -20,7 +20,7 @@
 <br></br><br></br>
 
 
-# 1. 📄 프로젝트 소개
+# 📄 프로젝트 소개
 ####  개발기간 : 2022.09.19 ~ 2022.10.13 <br>
 * `안전하고 빠르게 동행자를 찾을수 있는 사이트가 없을까` 에서 시작된 프로젝트 입니다. <br>
 * 혼자 여행하는 여행 트렌트를 반영한 쉽고 빠르게 동행자를 찾을 수 있는 커뮤니티 사이트입니다. <br>
@@ -33,7 +33,7 @@
 
 <br></br>
 
-# 2. 👥 팀원 구성
+## 1. 👥 팀원 구성
 | 이 름 | 담 당 |
 | :----: | ---------- |
 | 공현지 | Q&A 게시판 |
@@ -49,11 +49,11 @@
 
 <br></br>
 
-# 3. 📝 시스템 프로세스
+## 2. 📝 시스템 프로세스
 <img width="900" alt="image" src="https://user-images.githubusercontent.com/108061839/218391685-22f9c766-c4fb-4e9c-b9b3-04b11078d13e.png">
 <br></br>
 
-# 4. 🧰 ERD
+## 3. 🧰 ERD
 <img width="900" alt="image" src="https://user-images.githubusercontent.com/108061839/218391925-ac1949d5-53a1-456f-83b5-01c0015dae92.png">
 <br>
 
@@ -61,7 +61,7 @@
 <img width="900" alt="image" src="https://user-images.githubusercontent.com/108061839/218392537-c36d76cf-2d28-41f9-9df2-e6773fe8d59b.png">
 <br></br>
 
-# 5.📄 전체페이지 구성
+## 4.📄 전체페이지 구성
 | 1. 메인페이지 | 2. 회원관리 | 3. 마이페이지|
 |:---:|:---:|:---:|
 | <img width="350" alt="image" src="https://user-images.githubusercontent.com/108061839/218393318-93921176-f4bd-4c08-8b79-bce9f6dc4110.png"> |<img width="350" alt="image" src="https://user-images.githubusercontent.com/108061839/218393482-59553378-894b-4b12-ac1c-0ea4ea378b44.png"> | <img width="350" alt="image" src="https://user-images.githubusercontent.com/108061839/218393698-db443057-f85f-4b32-8999-c49dc54ccbd8.png"> |
@@ -72,7 +72,7 @@
 
 <br></br>
 
-# 7. 🧳 동행자페이지 주요기능 
+## 5. 🧳 동행자페이지 주요기능 
 
 > 기본 게시판이 아닌 이미지를 적절히 배치한 것이 특징입니다. <br>
 ` 글 + 감성`을 위한 레이아웃으로, 상세 글 클릭 전 글의 테마를 시각적으로 표현하였습니다.
@@ -92,6 +92,12 @@
 [동행자_dao_쿼리] (https://github.com/Youna2022/jejuwaveProject/blob/main/j20220901/src/main/java/dao/TravelDao.java),
 [화면_jsp] (https://github.com/Youna2022/jejuwaveProject/tree/main/j20220901/src/main/webapp/yn)
 
+## 6. 구현중 겪은 어려움
+
+* 초반 계획단계에서 개발 기획과 ERD 설계시 테이블 관계설정 미숙으로 기획과 테이블 구조를 전체적으로 수정하였던 경험. <br>
+    * 체계적인 ERD설계와 기획의 중요성을 알 수 있었고 촉박한 시간일지라도 구조를 확실히 정하고 시작해야 개발시 속도 절감을 할 수 있음을 깨달았습니다.
+* 개발진행시 데이터, 타입, 테이블 컬럼 추가 관련 수정되는 사항이 문서화 되지 않아 놓치는 부분이 있었다.
+    * 다음 프로젝트 시 노션을 통해 회의 내용과 수정 사항을 정리하고 공유해야겠다 생각하였씁니다.
 
 <details><summary> <u>🧳 페이지 화면 및 설명 보기 </u>
 </summary>
