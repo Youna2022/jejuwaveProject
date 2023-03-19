@@ -90,7 +90,7 @@
 [동행자_service](https://github.com/Youna2022/jejuwaveProject/tree/main/j20220901/src/main/java/service/yn) ,
 [동행자_dao_get,set](https://github.com/Youna2022/jejuwaveProject/blob/main/j20220901/src/main/java/dao/Travel.java) ,
 [동행자_dao_쿼리](https://github.com/Youna2022/jejuwaveProject/blob/main/j20220901/src/main/java/dao/TravelDao.java) ,
-[화면_jsp](https://github.com/Youna2022/jejuwaveProject/tree/main/j20220901/src/main/webapp/yn) ,
+[화면_jsp](https://github.com/Youna2022/jejuwaveProject/tree/main/j20220901/src/main/webapp/yn) 
 
 ## 6. 구현중 겪은 어려움
 
